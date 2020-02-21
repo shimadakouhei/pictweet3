@@ -7,7 +7,6 @@ class TweetsController < ApplicationController
   end
 
   def new
-    # binding.pry
     @tweet = Tweet.new
   end
 
