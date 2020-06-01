@@ -20,10 +20,10 @@ class TweetsController < ApplicationController
   def edit
   end  
 
-  def update
-    tweet = Tweet.find(params[:id])
-    tweet.update(tweet_params)
-  end
+  # def update
+  #   tweet = Tweet.find(params[:id])
+  #   tweet.update(tweet_params)
+  # end
   
   def show
     @comment = Comment.new
